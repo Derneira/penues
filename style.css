@@ -1,0 +1,24 @@
+*{
+  padding: 0;
+  margin: 0;
+  user-select: none;
+}
+.container{
+  display:flex ;
+  background-color: grey;
+  height: 600px;
+  width: 500px;
+  position: absolute;
+  margin-top: 10%;
+  margin-left: 20%;
+}
+.nome{
+  height: 20px;
+  width: 200px;
+}
+.email{
+  height: 20px;
+}
+.assunto{
+  height: 250px;
+}
