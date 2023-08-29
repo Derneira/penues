@@ -2,6 +2,7 @@
   padding: 0;
   margin: 0;
   user-select: none;
+  box-sizing: border-box;
 }
 body{
   width: 100%;
@@ -51,7 +52,8 @@ body{
   border-left: 0;
   outline: 0;
   caret-color: rgb(187, 75, 0);
-  color: white;
+  color: rgb(189, 189, 189);
+  font-size: 20px;
 }
 .email{
   color: rgb(187, 75, 0);
@@ -69,12 +71,13 @@ body{
   border-left: 0;
   outline: 0;
   caret-color: rgb(187, 75, 0);
-  color: white;
+  color: rgb(189, 189, 189);
+  font-size: 20px;
 }
 .assunto{
   color: rgb(187, 75, 0);
   font-family: 'Cabin', sans-serif;
-  margin-top: 20px;
+  margin-top: 40px;
   font-size: 30px;
 }
 .assuntotxt{
@@ -83,11 +86,15 @@ body{
   width: 400px;
   background-color: rgba(41, 40, 40, 0);
   border-color: rgb(187, 75, 0);
+  border-radius: 3px;
   outline: 0;
   caret-color: rgb(187, 75, 0);
-  color: white;
+  color: rgb(189, 189, 189);
   border: none;
-  box-shadow: 0px 0px 3px 3px rgba(187, 75, 0, 0.507);
+  box-shadow: 0px 0px 7px 3px rgba(187, 75, 0, 0.842);
+  padding: 20px;
+  padding-top: 13px;
+  font-size: 16px;
 }
 .enviar{
   width: 100px;
